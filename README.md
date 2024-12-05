@@ -1,26 +1,14 @@
-# Loan_Defaulter_XGBoost:
-Developed an XGBoost model to classify Loan Defaulters with ~70% Recall value and identified top Risk as well as Capacity-based profiling features impacting write-offs by estimating Gain-based Feature Importance. 
-
+# Overview
+Developed a Machine Learning model to predict loan defaults, achieving ~70% Recall value. Used XGBoost classifier to identify high-risk applications and key risk indicators through gain-based feature importance analysis.
 
 **Problem Statement**
-Financial institutions face significant challenges in assessing credit risk and predicting loan defaults. With default rates affecting both profitability and regulatory compliance, there's a critical need for accurate prediction models.
+Financial institutions need accurate loan default prediction models to:
 
-**Business Challenge**
-High costs associated with loan defaults
-Need for early risk identification
-Regulatory requirements for risk assessment
-Resource allocation for debt collection
-Portfolio risk management
-
-**Technical Objectives**
-
-Build ML model to predict credit default probability
-Identify key risk indicators
-Create actionable risk scoring system
-Enable real-time risk assessment
-Develop interpretable model insights
-
-**Data Context**
+Minimize default-related losses
+Enable early risk identification
+Meet regulatory requirements
+Optimize resource allocation
+Improve portfolio risk management
 
 **Dataset Size**: 307,511 loan applications × 121 features
 **Features Categories:**
@@ -38,10 +26,10 @@ Develop interpretable model insights
 **Implementation Details**
 Data Preprocessing
 Missing Value Analysis
-Train-Test Data Split
-Feature Engineering:
+Train-Test Data Split (0.70-0.30)
 
-Weight of Evidence (WOE) Encoding
+_Feature Engineering:_
+Weight of Evidence (WOE) Encoding for categorical variables
 
 **XGBoost Configuration**
 
