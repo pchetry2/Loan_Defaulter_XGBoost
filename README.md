@@ -35,19 +35,6 @@ Develop interpretable model insights
 
 **Target Variable:** Binary default status (1 = Default, 0 = Non-Default)
 
-**Success Metrics**
-
-**Model Performance:**
-
-Target Recall > 70%
-Risk Segmentation Effectiveness
-Feature Importance Insights
-Default Capture Rate in Top Risk Buckets
-
-![Screenshot 2024-12-04 at 10 44 14 PM](https://github.com/user-attachments/assets/5e652de8-719b-4c64-ad89-b8c5439d30e2)
-
-
-
 **Implementation Details**
 Data Preprocessing
 Missing Value Analysis
